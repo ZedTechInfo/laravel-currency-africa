@@ -31,6 +31,12 @@ class LaravelAfricanCurrenciesServiceProvider extends ServiceProvider
             __DIR__.'/../config/african-currencies.php' => config_path('african-currencies.php'),
         ], 'african-currencies-config');
 
+        $this->publishes([
+            __DIR__.'/../database/migrations/' => database_path('migrations'),
+        ], 'african-currencies-migrations');
+
+        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Console\Commands\FetchBozRatesCommand::class,

@@ -1,6 +1,6 @@
 <?php
 
-namespace RandomStrInc\LaravelAfricanCurrencies;
+namespace RandomStrInc\LaravelAfricanCurrencies\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

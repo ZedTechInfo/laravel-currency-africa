@@ -16,9 +16,18 @@
         "illuminate/support": "^10.0|^11.0|^12.0",
         "phpoffice/phpspreadsheet": "^1.29"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0|^11.0",
+        "mockery/mockery": "^1.5"
+    },
     "autoload": {
         "psr-4": {
             "RandomStrInc\\LaravelAfricanCurrencies\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RandomStrInc\\LaravelAfricanCurrencies\\Tests\\": "tests/"
         }
     },
     "extra": {
@@ -33,6 +42,9 @@
     },
     "config": {
         "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
     },
     "minimum-stability": "dev",
     "prefer-stable": true

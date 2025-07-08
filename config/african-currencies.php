@@ -21,7 +21,7 @@ return [
             'name' => 'West African CFA franc',
             'symbol' => 'CFA',
             'code' => 'XOF',
-            'country' => 'Benin, Burkina Faso, Côte d'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo',
+            'country' => 'Benin, Burkina Faso, Côte d\'Ivoire, Guinea-Bissau, Mali, Niger, Senegal, Togo',
             'exchange_rate_to_usd' => null,
         ],
         'BWP' => [
@@ -40,7 +40,7 @@ return [
         ],
         'CVE' => [
             'name' => 'Cabo Verde Escudo',
-            'symbol' => ',
+            'symbol' => '$',
             'code' => 'CVE',
             'country' => 'Cabo Verde',
             'exchange_rate_to_usd' => null,
@@ -138,7 +138,7 @@ return [
         ],
         'LRD' => [
             'name' => 'Liberian Dollar',
-            'symbol' => ',
+            'symbol' => '$',
             'code' => 'LRD',
             'country' => 'Liberia',
             'exchange_rate_to_usd' => null,
@@ -194,7 +194,7 @@ return [
         ],
         'NAD' => [
             'name' => 'Namibian Dollar',
-            'symbol' => ',
+            'symbol' => '$',
             'code' => 'NAD',
             'country' => 'Namibia',
             'exchange_rate_to_usd' => null,
@@ -292,7 +292,7 @@ return [
         ],
         'ZWL' => [
             'name' => 'Zimbabwean Dollar',
-            'symbol' => 'Z,
+            'symbol' => 'Z$',
             'code' => 'ZWL',
             'country' => 'Zimbabwe',
             'exchange_rate_to_usd' => null,
