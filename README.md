@@ -53,8 +53,8 @@ $currencies = AfricanCurrency::getAllCurrencies();
 ```php
 use RandomStrInc\LaravelAfricanCurrencies\Facades\AfricanCurrency;
 
-$zarDetails = AfricanCurrency::getCurrencyDetails('ZAR');
-// Returns an array with ZAR details or null if not found
+$zmwDetails = AfricanCurrency::getCurrencyDetails('ZMW');
+// Returns an array with ZMW details or null if not found
 ```
 
 ### Convert currency
@@ -62,8 +62,8 @@ $zarDetails = AfricanCurrency::getCurrencyDetails('ZAR');
 ```php
 use RandomStrInc\LaravelAfricanCurrencies\Facades\AfricanCurrency;
 
-$convertedAmount = AfricanCurrency::convert(100, 'ZAR', 'NGN');
-// Converts 100 ZAR to NGN based on the configured exchange rates
+$convertedAmount = AfricanCurrency::convert(100, 'ZMW', 'NGN');
+// Converts 100 ZMW to NGN based on the configured exchange rates
 ```
 
 ## Configuration
@@ -75,7 +75,7 @@ The `config/african-currencies.php` file allows you to define the African curren
 To use the ExchangeRate-API for non-ZMW conversions, you need to obtain an API key from [exchangerate-api.com](https://www.exchangerate-api.com/) and add it to your `.env` file:
 
 ```dotenv
-EXCHANGE_RATE_API_KEY=bfcde40b28b0335439582c2c
+EXCHANGE_RATE_API_KEY=your_api_key_here
 ```
 
 ### Currency Definitions
@@ -103,7 +103,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this package, please send an e-mail to [your-email@example.com](mailto:your-email@example.com) instead of using the issue tracker.
+If you discover a security vulnerability within this package, please send an e-mail to [Cyb3rK1d](mailto:cyb3rk1d@duck.com) instead of using the issue tracker.
 
 ## License
 
